@@ -114,6 +114,9 @@
     }
   }
   @media (max-width: 767px) { /* CSS для cмартфонов и небольших планшетов 767px */
+    .logo{
+      min-width: 142px;
+    }
     .lead__title{
       max-width: 288px;
       line-height:110%;
