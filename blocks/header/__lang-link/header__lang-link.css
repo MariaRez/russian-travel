@@ -1,0 +1,18 @@
+.header__lang-link {
+  margin: 0;
+  font-size: 24px;
+  line-height: 117%;
+  color: #FFFFFF;
+  text-decoration: none;
+  opacity: 1;
+  }
+
+.header__lang-link:first-of-type{
+  text-decoration:underline;
+  padding-right: 18px;
+  }
+
+ .header__lang-link:hover{
+    opacity: 0.8;
+    transition: opacity 0.1s linear 0.2s;
+  }

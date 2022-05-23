@@ -1,0 +1,12 @@
+.place__paragraf{
+  margin:0;
+  text-align: start;
+  font-weight: normal;
+  line-height:163%;
+  font-size: 18px;
+  color: #FFFFFF;
+  }
+
+  .place__paragraf:first-of-type{
+    padding-bottom: 26px;
+    }
