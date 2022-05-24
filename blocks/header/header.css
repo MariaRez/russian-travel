@@ -2,7 +2,18 @@
   margin: 0 auto;
   padding: 28px 0 48px;
   max-width: 92.5%;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (min-width: 1280px) { /* CSS для экранов больше 1280px */
+  .header {
+    padding-bottom: 56px;
   }
+} 
+@media (max-width: 425px) {/* CSS для экранов меньше 425px */
+  .header {
+    padding-top: 16px;
+  }
+}

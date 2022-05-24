@@ -4,11 +4,20 @@
   text-decoration: none;
   line-height: 112%;
   font-size: 16px;
-  font-weight:normal;
-  color:#fff;
+  font-weight: 400;
+  color: #fff;
   opacity: 1;
-  }
-.footer__link:hover{
+}
+
+.footer__link:hover {
     opacity: 0.8;
     transition: opacity 0.1s linear 0.2s;
+}
+
+@media (max-width: 767px) { /* CSS для cмартфонов и небольших планшетов 767px */
+  .footer__link {
+    line-height: 100%;
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
 }

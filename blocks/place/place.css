@@ -1,6 +1,6 @@
 .place {
   margin: 0 auto;
-  padding:0 148px 80px;
+  padding: 0 148px 80px;
   display: grid;
   grid-template-columns: minmax(320px, 460px) minmax(352px, 484px);
   grid-template-rows: auto auto;
@@ -9,3 +9,31 @@
   justify-items: start; /*чтобы прижались к левой стороне*/
   align-items: start; /*чтобы прижались к верху*/
   }
+
+@media (max-width: 1279px) { /* CSS для: 1024px – 1279px */
+  .place {
+    padding: 0 48px 80px;
+    row-gap: 32px;
+  }
+}
+
+@media (max-width: 1023px) { /* CSS для: 768px – 1023px */
+  .place {
+    padding: 0 24px 73px;
+    row-gap: 28px;
+  }
+}
+
+@media (max-width: 767px) { /* CSS для cмартфонов и небольших планшетов 767px */
+  .place {
+    grid-template-columns: minmax(320px, 460px);
+    grid-template-rows: auto auto auto auto;
+    row-gap: 32px;
+  }
+}
+
+@media (max-width: 425px) { /* CSS для экранов меньше 425px */
+  .place {
+    padding: 0 0 50px;
+  }
+}

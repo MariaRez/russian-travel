@@ -4,4 +4,12 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 767px) { /* CSS для cмартфонов и небольших планшетов 767px */
+  .footer__links {
+    flex-direction: column;
+    min-height: 248px;
+    justify-content: space-between;
   }
+}

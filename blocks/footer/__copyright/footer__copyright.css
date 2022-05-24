@@ -2,6 +2,12 @@
   margin: 0;
   line-height: 114%;
   font-size: 14px;
-  font-weight:normal;
-  color:#fff;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media (max-width: 767px) { /* CSS для cмартфонов и небольших планшетов 767px */
+  .footer__copyright {
+    line-height: 100%;
   }
+}

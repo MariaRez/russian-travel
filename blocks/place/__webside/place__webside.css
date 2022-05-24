@@ -1,9 +1,15 @@
-.place__webside{
-  margin:0;
+.place__webside {
+  margin: 0;
   align-self: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+@media (max-width: 425px) { /* CSS для экранов меньше 425px */
+  .place__webside {
+    padding-left: 16px;
   }
+}
 
